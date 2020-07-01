@@ -32,6 +32,8 @@ Thomas MARTIN
 
 
 # Q3
+Nous avons ajouté une fonction `check_risk` et nous avons modifié `generer_tableau` afin de permettre d'insérer des entitiés et non plus seulement 0 ou 1 à l'aide d'une loi binomiale
+
 
  ```PYTHON
     def check_risk(row, prix, budget):
@@ -51,5 +53,9 @@ Thomas MARTIN
             tableau.append(row.tolist())
         return np.array(tableau, dtype=np.int)
  ```
+
+
+ # Q4
+ Nous avons généré les fichiers de données (data[2-4].csv) mais nous ne sommes pas parvenu a trouver une configuration permettant d'améliorer la rapidité d'éxécution du code
  
 
