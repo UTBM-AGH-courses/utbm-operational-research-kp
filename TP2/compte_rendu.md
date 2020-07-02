@@ -4,9 +4,12 @@ Valentin REVERSAT 🏍
 Thomas MARTIN
 
 # Q1
- Si le nombre d'objets est trop grand par rapport à la capacité du sac (le sac craque), on ne peut pas trouver une solution optimal car la fitness sera a zéro.
-
- La modification de la valeur max de la valeur d'un objet ou encore de taille du sac a pour effet de modifier la valeur de départ de la fitness.
-
+Cf le l'implémentaion dans [Q1.py](./Q1.py)
 
 # Q2
+Cf le l'implémentaion dans [Q2.py](./Q2.py)
+
+# Q3
+Au niveau du temps d'éxécution, les programmes sont sensiblement identiques. Cependant lorsqu'on passe à 1000 générations, l'algo génétique se débrouille beaucoup mieux :
+- Recuit : 0.5sec
+- AG : 0.1sec
